@@ -2,10 +2,11 @@
 public class test {
 public static void main(String[]args)
 {
-	int x,y,r;
+	int x,y;
 	x=3;
 	y=10;
-	r=y/x;
+	
+	float r=(float)y/x;
 	System.out.println(r);
 }
 }
